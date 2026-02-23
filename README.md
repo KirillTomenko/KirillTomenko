@@ -27,7 +27,7 @@
 | [🤖 Restaurant-Feedback-Bot](https://github.com/KirillTomenko/-Restaurant-Feedback-Bot) | Telegram-бот сбора обратной связи с интеграцией в Google Sheets | Python, Telegram API |
 | [💰 auto-loan-calculator](https://github.com/KirillTomenko/auto-loan-calculator) | Кредитный калькулятор с графиком платежей и экспортом в Excel | Python, Flask, openpyxl |
 | [🏋️ AI-sportdnevnik](https://github.com/KirillTomenko/AI-sportdnevnik) | Спортивный дневник с AI-тренером и аналитикой | Python, Telegram, OpenAI |
-
+| [🎨 logocraft-yandexart](https://github.com/KirillTomenko/logocraft-yandexart) | Генератор логотипов через YandexART 2.0 | Python, Flask, YandexART |
 ---
 
 ## 📈 Чем занимаюсь
