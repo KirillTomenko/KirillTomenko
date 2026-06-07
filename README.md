@@ -25,6 +25,13 @@
 ---
 ## ⭐ Избранные проекты
 
+### AI Contract & Commercial Proposal Generator    (https://github.com/KirillTomenko/AI-Contract_--Commercial-Proposal-Generator)
+
+LLM-powered сервис для автоматической генерации коммерческих предложений и договоров из неструктурированного текста. 
+Использует GPT-4o для извлечения данных и формирует готовые PDF-документы через FastAPI API и Telegram-бота.
+
+**Stack:** Python · FastAPI · OpenAI API · Pydantic · ReportLab · SQLite · Docker · aiogram
+
 ### 🤖 Portfolio MCP Assistant    (https://github.com/KirillTomenko/AIproject-portfolio)
 
 MCP-сервер и Telegram-бот для управления проектами и генерации контента.
@@ -58,7 +65,7 @@ AI-анализ сайтов с генерацией рекомендаций п
 Технологии:
 Python · Streamlit · OpenAI
 
-### 📡 NexusBot
+### 📡 NexusBot    (https://github.com/KirillTomenko/NexusBot)
 
 Telegram-бот для управления группами и массовыми рассылками.
 
