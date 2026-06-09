@@ -2,117 +2,172 @@
 
 ### AI Automation Developer
 
-Разрабатываю AI-агентов и Telegram-ботов для автоматизации бизнес-процессов.
+Разрабатываю Telegram-ботов, AI-ассистентов и FastAPI-сервисы для автоматизации бизнес-процессов.
 
-**Python · FastAPI · OpenAI API · Telegram Bot API · Docker**
+Помогаю компаниям автоматизировать прием заявок, внутренние процессы и работу с клиентами с помощью AI.
+
+---
+
+## О себе
+
+Более 20 лет занимался управлением бизнесом и коммерческими проектами.
+
+Сейчас создаю AI-инструменты и сервисы автоматизации, которые помогают сокращать ручную работу, быстрее запускать новые процессы и проверять бизнес-гипотезы через MVP.
 
 ---
 
 ## 🛠 Стек
 
-**AI:** OpenAI API, GPT-4o, Claude, MCP, Tool Calling
+### AI
 
-**Backend:** Python, FastAPI
+OpenAI API · GPT-4o · Claude · MCP · Tool Calling
 
-**Боты:** Telegram Bot API, aiogram
+### Backend
 
-**Инфраструктура:** Docker, Git, VPS
+Python · FastAPI
 
-**Данные:** SQLite, Google Sheets, openpyxl
+### Telegram
 
-**Frontend / UI:** Streamlit
+Telegram Bot API · aiogram
+
+### Инфраструктура
+
+Docker · Git · VPS · Linux
+
+### Данные
+
+SQLite · PostgreSQL · Google Sheets · openpyxl
+
+### UI
+
+Streamlit
 
 ---
-## ⭐ Избранные проекты
 
-### AI Contract & Commercial Proposal Generator    (https://github.com/KirillTomenko/AI-Contract_--Commercial-Proposal-Generator)
+# ⭐ Избранные проекты
 
-LLM-powered сервис для автоматической генерации коммерческих предложений и договоров из неструктурированного текста. 
-Использует GPT-4o для извлечения данных и формирует готовые PDF-документы через FastAPI API и Telegram-бота.
+## AI Contract & Commercial Proposal Generator
+
+LLM-powered сервис для автоматической генерации коммерческих предложений и договоров из неструктурированного текста.
+
+**Результат для бизнеса:**
+
+* сокращение времени подготовки документов;
+* автоматизация формирования коммерческих предложений;
+* уменьшение количества ручных операций.
 
 **Stack:** Python · FastAPI · OpenAI API · Pydantic · ReportLab · SQLite · Docker · aiogram
 
-### 🤖 Portfolio MCP Assistant    (https://github.com/KirillTomenko/AIproject-portfolio)
+Repository:
+https://github.com/KirillTomenko/AI-Contract_--Commercial-Proposal-Generator
+
+---
+
+## 📥 Lead Intake MVP
+
+Сервис автоматизации приема и обработки заявок.
+
+**Функциональность:**
+
+* webhook API;
+* валидация данных;
+* хранение заявок;
+* Telegram-уведомления;
+* Email-уведомления;
+* экспорт данных;
+* веб-панель управления.
+
+**Результат для бизнеса:**
+
+* единая точка приема обращений;
+* сокращение ручной обработки данных;
+* снижение риска потери заявок.
+
+**Stack:** Python · FastAPI · SQLite · Docker
+
+Repository:
+https://github.com/KirillTomenko/lead-intake-mvp
+
+---
+
+## 🎨 UX Website Analyzer
+
+AI-сервис для анализа сайтов и формирования рекомендаций по улучшению пользовательского опыта.
+
+**Результат для бизнеса:**
+
+* быстрый первичный UX-аудит;
+* автоматическое выявление проблем;
+* получение рекомендаций за несколько минут.
+
+**Stack:** Python · Streamlit · OpenAI API · BeautifulSoup · Docker
+
+Repository:
+https://github.com/KirillTomenko/ux-website-analyzer
+
+---
+
+## 🤖 Portfolio MCP Assistant
 
 MCP-сервер и Telegram-бот для управления проектами и генерации контента.
 
-Технологии:
-Python · FastAPI · OpenAI · SQLite · MCP · Telegram
+**Функциональность:**
+
+* Telegram-интерфейс;
+* управление проектной информацией;
+* генерация контента;
+* работа с инструментами через MCP.
+
+**Stack:** Python · FastAPI · OpenAI API · SQLite · MCP · Telegram Bot API
+
+Repository:
+https://github.com/KirillTomenko/AIproject-portfolio
 
 ---
 
-### 📥 Lead Intake MVP   (https://github.com/KirillTomenko/lead-intake-mvp)
-
-Микросервис автоматической обработки заявок.
-
-Возможности:
-
-- webhook
-- валидация данных
-- хранение заявок
-- Telegram уведомления
-- Email уведомления
-
-Технологии:
-Python · FastAPI · SQLite · Docker
-
----
-
-### 🎨 UX Website Analyzer   (https://github.com/KirillTomenko/ux-website-analyzer)
-
-AI-анализ сайтов с генерацией рекомендаций по улучшению UX.
-
-Технологии:
-Python · Streamlit · OpenAI
-
-### 📡 NexusBot    (https://github.com/KirillTomenko/NexusBot)
+## 📡 NexusBot
 
 Telegram-бот для управления группами и массовыми рассылками.
 
-Возможности:
+**Функциональность:**
 
-- управление списками групп
-- массовые рассылки
-- уведомления администратора
-- SQLite-хранилище
-- Telethon
+* управление группами;
+* массовые рассылки;
+* уведомления администратора;
+* SQLite-хранилище.
 
-Технологии:
-Python · Telethon · SQLite
+**Stack:** Python · Telethon · SQLite
 
+Repository:
+https://github.com/KirillTomenko/NexusBot
 
-## 🚀 Другие проекты
-
-| Проект | Описание | Стек |
-|--------|----------|------|
-| [🤖 Restaurant-Feedback-Bot](https://github.com/KirillTomenko/-Restaurant-Feedback-Bot) | Telegram-бот сбора обратной связи с интеграцией в Google Sheets | Python, Telegram API |
-| [🏋️ AI-sportdnevnik](https://github.com/KirillTomenko/AI-sportdnevnik) | Спортивный дневник с AI-тренером и аналитикой | Python, Telegram, OpenAI |
 ---
 
-## 📈 Чем занимаюсь
+# 🚀 Другие проекты
 
-• Разрабатываю AI-агентов и Telegram-ботов для бизнеса
+| Проект                  | Описание                                                          |
+| ----------------------- | ----------------------------------------------------------------- |
+| Restaurant Feedback Bot | Telegram-бот для сбора обратной связи с интеграцией Google Sheets |
+| AI Sportdnevnik         | Спортивный дневник с AI-тренером и аналитикой                     |
 
-• Автоматизирую обработку заявок и внутренние процессы
-
-• Интегрирую OpenAI API и Claude в реальные продукты
-
-• Создаю MVP AI-сервисов на Python и FastAPI
-
-• Использую MCP и Tool Calling для построения AI-систем
 ---
-## 📈 Фокус
 
-- AI Automation для малого бизнеса
-- Telegram-боты
-- AI-консультанты
-- Автоматизация обработки заявок
-- MVP AI-сервисов
-  
-## 📬 Связь
+# 📈 Чем занимаюсь
 
-[![Telegram](https://img.shields.io/badge/Telegram-@Kirill__BT-2CA5E0?logo=telegram)](https://t.me/Kirill_BT)
+* Разрабатываю AI-агентов и Telegram-ботов для бизнеса
+* Автоматизирую обработку заявок и внутренние процессы
+* Интегрирую OpenAI API и Claude в реальные продукты
+* Создаю MVP AI-сервисов на Python и FastAPI
+* Использую MCP и Tool Calling для построения AI-систем
 
-### Канал
+---
 
-[AI-агенты для бизнеса](https://t.me/kirill_ai_lab)
+# 📬 Связь
+
+Telegram:
+@Kirill_BT
+
+Канал:
+AI-агенты для бизнеса
+
+https://t.me/kirill_ai_lab
