@@ -1,53 +1,128 @@
 # Привет, я Кирилл 👋
 
-### AI Automation Developer
+### AI Automation Developer • Python Backend Developer
 
-Разрабатываю Telegram-ботов, AI-ассистентов и FastAPI-сервисы для автоматизации бизнес-процессов.
+Разрабатываю AI-сервисы, RAG-приложения и backend-решения на Python для автоматизации бизнес-процессов.
 
-Помогаю компаниям автоматизировать прием заявок, внутренние процессы и работу с клиентами с помощью AI.
+Создаю инструменты, которые помогают компаниям автоматизировать обработку заявок, работу с документами, поддержку клиентов и внутренние процессы с использованием LLM.
 
 ---
 
 ## О себе
 
-Более 20 лет занимался управлением бизнесом и коммерческими проектами.
+Более 15 лет занимался управлением бизнесом и коммерческими проектами.
 
-Сейчас создаю AI-инструменты и сервисы автоматизации, которые помогают сокращать ручную работу, быстрее запускать новые процессы и проверять бизнес-гипотезы через MVP.
+Сегодня применяю этот опыт в разработке AI-продуктов: проектирую и создаю сервисы на Python и FastAPI, интегрирую LLM-модели, разрабатываю RAG-системы, Telegram-ботов и MVP для проверки бизнес-гипотез.
+
+Мне интересно создавать не просто демонстрационные проекты, а решения, которые можно использовать в реальном бизнесе и развивать до production.
+
 ---
 
-## 🛠 Стек
+## 🛠 Технологический стек
 
 ### AI
 
-OpenAI API · GPT-4o · Claude · MCP · Tool Calling
+OpenAI API · GPT-4o · Claude · LangChain · RAG · MCP · Tool Calling
 
 ### Backend
 
-Python · FastAPI
+Python · FastAPI · SQLAlchemy · Pydantic
+
+### Базы данных
+
+PostgreSQL · SQLite · ChromaDB
 
 ### Telegram
 
-Telegram Bot API · aiogram
+aiogram · Telegram Bot API
 
 ### Инфраструктура
 
-Docker · Git · VPS · Linux
+Docker · Docker Compose · Git · Linux · VPS
 
-### Данные
+### Другое
 
-SQLite · PostgreSQL · Google Sheets · openpyxl
+REST API · Alembic · Streamlit · openpyxl · Google Sheets
 
-### UI
-
-Streamlit
 
 ---
 
 # ⭐ Избранные проекты
 
-## AI Contract & Commercial Proposal Generator
+## 🧠 AI Knowledge Assistant
 
-LLM-powered сервис для автоматической генерации коммерческих предложений и договоров из неструктурированного текста.
+Корпоративный AI-ассистент на базе **RAG**, который отвечает на вопросы по внутренним документам компании через Telegram с указанием источника (документ и страница).
+
+**Результат для бизнеса:**
+
+* быстрый поиск информации в корпоративной базе знаний;
+* снижение нагрузки на HR и службу поддержки;
+* проверяемые ответы с ссылками на документы;
+* сокращение времени адаптации новых сотрудников.
+
+**Stack:** Python · FastAPI · LangChain · ChromaDB · PostgreSQL · SQLAlchemy · OpenAI API · aiogram · Docker
+
+**Repository:**
+https://github.com/KirillTomenko/ai-knowledge-assistant
+
+---
+
+## 🤖 AI Triage Service
+
+AI-сервис первичной обработки обращений клиентов. Автоматически классифицирует обращения, формирует черновик ответа, сохраняет аудит-лог и передаёт сложные случаи оператору.
+
+**Результат для бизнеса:**
+
+* сокращение времени обработки обращений;
+* автоматическая маршрутизация запросов;
+* снижение нагрузки на службу поддержки;
+* журнал обработки для анализа качества работы.
+
+**Stack:** Python · FastAPI · OpenAI API · SQLite · Docker
+
+**Repository:**
+https://github.com/KirillTomenko/ai-triage-service
+
+---
+
+## 📥 Lead Intake MVP
+
+Сервис автоматизации приёма заявок с сайта и их дальнейшей обработки.
+
+**Результат для бизнеса:**
+
+* единая точка приёма обращений;
+* автоматические уведомления менеджеров;
+* снижение риска потери заявок;
+* сокращение ручной обработки данных.
+
+**Stack:** Python · FastAPI · SQLite · Docker
+
+**Repository:**
+https://github.com/KirillTomenko/lead-intake-mvp
+
+---
+
+## 🤖 Portfolio MCP Assistant
+
+MCP-сервер и Telegram-бот для управления проектами и генерации контента с использованием AI-инструментов.
+
+**Результат для бизнеса:**
+
+* централизованное управление проектной информацией;
+* автоматизация подготовки контента;
+* интеграция AI-инструментов через MCP.
+
+**Stack:** Python · FastAPI · MCP · OpenAI API · SQLite · Telegram Bot API
+
+**Repository:**
+https://github.com/KirillTomenko/AIproject-portfolio
+
+---
+
+## 📄 AI Contract & Commercial Proposal Generator
+
+AI-сервис для автоматической генерации коммерческих предложений и договоров на основе неструктурированного текста.
 
 **Результат для бизнеса:**
 
@@ -57,35 +132,8 @@ LLM-powered сервис для автоматической генерации 
 
 **Stack:** Python · FastAPI · OpenAI API · Pydantic · ReportLab · SQLite · Docker · aiogram
 
-Repository:
+**Repository:**
 https://github.com/KirillTomenko/AI-Contract_--Commercial-Proposal-Generator
-
----
-
-## 📥 Lead Intake MVP
-
-Сервис автоматизации приема и обработки заявок.
-
-**Функциональность:**
-
-* webhook API;
-* валидация данных;
-* хранение заявок;
-* Telegram-уведомления;
-* Email-уведомления;
-* экспорт данных;
-* веб-панель управления.
-
-**Результат для бизнеса:**
-
-* единая точка приема обращений;
-* сокращение ручной обработки данных;
-* снижение риска потери заявок.
-
-**Stack:** Python · FastAPI · SQLite · Docker
-
-Repository:
-https://github.com/KirillTomenko/lead-intake-mvp
 
 ---
 
@@ -97,47 +145,28 @@ AI-сервис для анализа сайтов и формирования �
 
 * быстрый первичный UX-аудит;
 * автоматическое выявление проблем;
-* получение рекомендаций за несколько минут.
+* рекомендации по улучшению пользовательского опыта.
 
 **Stack:** Python · Streamlit · OpenAI API · BeautifulSoup · Docker
 
-Repository:
+**Repository:**
 https://github.com/KirillTomenko/ux-website-analyzer
-
----
-
-## 🤖 Portfolio MCP Assistant
-
-MCP-сервер и Telegram-бот для управления проектами и генерации контента.
-
-**Функциональность:**
-
-* Telegram-интерфейс;
-* управление проектной информацией;
-* генерация контента;
-* работа с инструментами через MCP.
-
-**Stack:** Python · FastAPI · OpenAI API · SQLite · MCP · Telegram Bot API
-
-Repository:
-https://github.com/KirillTomenko/AIproject-portfolio
 
 ---
 
 ## 📡 NexusBot
 
-Telegram-бот для управления группами и массовыми рассылками.
+Telegram-бот для управления группами, массовыми рассылками и уведомлениями.
 
-**Функциональность:**
+**Результат для бизнеса:**
 
-* управление группами;
-* массовые рассылки;
-* уведомления администратора;
-* SQLite-хранилище.
+* автоматизация коммуникаций;
+* централизованное управление рассылками;
+* снижение объёма ручной работы администраторов.
 
 **Stack:** Python · Telethon · SQLite
 
-Repository:
+**Repository:**
 https://github.com/KirillTomenko/NexusBot
 
 ---
@@ -153,11 +182,11 @@ https://github.com/KirillTomenko/NexusBot
 
 # 📈 Чем занимаюсь
 
-* Разрабатываю AI-агентов и Telegram-ботов для бизнеса
-* Автоматизирую обработку заявок и внутренние процессы
-* Интегрирую OpenAI API и Claude в реальные продукты
-* Создаю MVP AI-сервисов на Python и FastAPI
-* Использую MCP и Tool Calling для построения AI-систем
+Разрабатываю AI-сервисы и RAG-приложения для бизнеса
+Создаю backend-системы на Python и FastAPI
+Интегрирую LLM (OpenAI API, Claude) в реальные продукты
+Автоматизирую обработку документов, заявок и клиентских обращений
+Проектирую MVP и AI-инструменты для проверки бизнес-гипотез
 
 ---
 
