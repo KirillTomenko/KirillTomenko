@@ -2,6 +2,8 @@
 
 ### AI Automation Developer • Python Backend Developer
 
+**Превращаю рутину бизнеса в рабочую AI-автоматизацию.**
+
 Разрабатываю AI-сервисы, RAG-приложения и backend-решения на Python для автоматизации бизнес-процессов.
 
 Создаю инструменты, которые помогают компаниям автоматизировать обработку заявок, работу с документами, поддержку клиентов и внутренние процессы с использованием LLM.
@@ -10,7 +12,7 @@
 
 ## О себе
 
-Более 15 лет занимался управлением бизнесом и коммерческими проектами.
+Более 20 лет занимался бизнесом, управлением, коммерцией и развитием проектов.
 
 Сегодня применяю этот опыт в разработке AI-продуктов: проектирую и создаю сервисы на Python и FastAPI, интегрирую LLM-модели, разрабатываю RAG-системы, Telegram-ботов и MVP для проверки бизнес-гипотез.
 
@@ -44,11 +46,45 @@ Docker · Docker Compose · Git · Linux · VPS
 
 REST API · Alembic · Streamlit · openpyxl · Google Sheets
 
-
-
 ---
 
 # ⭐ Избранные проекты
+
+## 🏗 AI Automation Architect — blueprint автоматизации бизнес-процесса
+
+По свободному текстовому описанию бизнес-процесса строит Automation Blueprint: карту процесса с актёрами и шагами, оценку автоматизируемости каждого шага по фиксированной таксономии, архитектуру решения из каталога типовых блоков, риски и MVP-scope — плюс детерминированный текстовый отчёт для показа заказчику.
+
+**Результат для бизнеса:**
+- предметная основа для решения об автоматизации вместо «у нас всё вручную»;
+- честные оценки: проценты автоматизации берутся из фиксированной таксономии, а не придумываются моделью;
+- архитектура собирается только из каталога типовых блоков — MVP-scope обсуждается предметно;
+- видно, где автоматизация упирается в человека (human-in-the-loop на диаграмме);
+- 8 готовых кейсов разных типов бизнеса можно посмотреть без вызова LLM.
+
+**Stack:** Python · FastAPI · Pydantic · OpenAI API (ProxyAPI) · Docker · CI (GitHub Actions)
+
+**Repository:**
+https://github.com/KirillTomenko/ai-automation-architect
+
+---
+
+## 🧠 AI Knowledge Assistant
+
+Корпоративный AI-ассистент на базе **RAG**, который отвечает на вопросы по внутренним документам компании через Telegram с указанием источника (документ и страница).
+
+**Результат для бизнеса:**
+
+* быстрый поиск информации в корпоративной базе знаний;
+* снижение нагрузки на HR и службу поддержки;
+* проверяемые ответы с ссылками на документы;
+* сокращение времени адаптации новых сотрудников.
+
+**Stack:** Python · FastAPI · LangChain · ChromaDB · PostgreSQL · SQLAlchemy · OpenAI API · aiogram · Docker
+
+**Repository:**
+https://github.com/KirillTomenko/ai-knowledge-assistant
+
+---
 
 ## 📊 Proposal Generator — конструктор КП с контролем честности
 
@@ -66,7 +102,7 @@ REST API · Alembic · Streamlit · openpyxl · Google Sheets
 
 **Stack:** Python · FastAPI · SQLite · OpenAI API · Pydantic · Docker
 
-**Repository:** 
+**Repository:**
 https://github.com/KirillTomenko/proposal-generator
 
 ---
@@ -87,26 +123,8 @@ https://github.com/KirillTomenko/proposal-generator
 **Stack:** Python · FastAPI · SQLite · ChromaDB · OpenAI API · Docker · GitHub Actions CI
 
 **Live demo:** https://knowledge-system-ln80.onrender.com
-**Repository:** 
-https://github.com/KirillTomenko/knowledge-system
-
----
-
-## 🧠 AI Knowledge Assistant
-
-Корпоративный AI-ассистент на базе **RAG**, который отвечает на вопросы по внутренним документам компании через Telegram с указанием источника (документ и страница).
-
-**Результат для бизнеса:**
-
-* быстрый поиск информации в корпоративной базе знаний;
-* снижение нагрузки на HR и службу поддержки;
-* проверяемые ответы с ссылками на документы;
-* сокращение времени адаптации новых сотрудников.
-
-**Stack:** Python · FastAPI · LangChain · ChromaDB · PostgreSQL · SQLAlchemy · OpenAI API · aiogram · Docker
-
 **Repository:**
-https://github.com/KirillTomenko/ai-knowledge-assistant
+https://github.com/KirillTomenko/knowledge-system
 
 ---
 
@@ -173,7 +191,9 @@ https://github.com/KirillTomenko/AIproject-portfolio
 **Stack:** Python · FastAPI · OpenAI API · Pydantic · ReportLab · SQLite · Docker · aiogram
 
 **Repository:**
-https://github.com/KirillTomenko/AI-Contract_--Commercial-Proposal-Generator-
+https://github.com/KirillTomenko/ai-contract-proposal-generator
+
+---
 
 ## 🎨 UX Website Analyzer
 
