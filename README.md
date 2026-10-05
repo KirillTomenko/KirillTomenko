@@ -1,6 +1,18 @@
-# Привет, я Кирилл 👋
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logo-mark-dark.svg">
+    <img src="logo-mark.svg" alt="Знак Кирилла Томенко" width="96">
+  </picture>
+</p>
 
-### AI Automation Developer • Python Backend Developer
+<h1 align="center">Привет, я Кирилл 👋</h1>
+<h3 align="center">AI Automation Developer • Python Backend Developer</h3>
+
+<p align="center">
+  <a href="https://landing-site-49r.pages.dev/">Сайт</a> ·
+  <a href="https://t.me/kirill_ai_lab">Канал в Telegram</a> ·
+  <a href="https://t.me/Kirill_BT">Написать в Telegram</a>
+</p>
 
 **Превращаю рутину бизнеса в рабочую AI-автоматизацию.**
 
@@ -240,20 +252,16 @@ https://github.com/KirillTomenko/NexusBot
 
 # 📈 Чем занимаюсь
 
-Разрабатываю AI-сервисы и RAG-приложения для бизнеса
-Создаю backend-системы на Python и FastAPI
-Интегрирую LLM (OpenAI API, Claude) в реальные продукты
-Автоматизирую обработку документов, заявок и клиентских обращений
-Проектирую MVP и AI-инструменты для проверки бизнес-гипотез
+- Разрабатываю AI-сервисы и RAG-приложения для бизнеса
+- Создаю backend-системы на Python и FastAPI
+- Интегрирую LLM (OpenAI API, Claude) в реальные продукты
+- Автоматизирую обработку документов, заявок и клиентских обращений
+- Проектирую MVP и AI-инструменты для проверки бизнес-гипотез
 
 ---
 
 # 📬 Связь
 
-Telegram:
-@Kirill_BT
-
-Канал:
-AI-агенты для бизнеса
-
-https://t.me/kirill_ai_lab
+- Telegram: [@Kirill_BT](https://t.me/Kirill_BT)
+- Канал «AI-агенты для бизнеса»: [@kirill_ai_lab](https://t.me/kirill_ai_lab)
+- Сайт: [landing-site-49r.pages.dev](https://landing-site-49r.pages.dev/)
